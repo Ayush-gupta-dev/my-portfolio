@@ -39,7 +39,57 @@ const TypewriterComponent = () => {
         'Coming Soon!',
         'I Love You :)',
         'Busy in Hackathon ;)',
-        'Building...:)'
+
+        
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+        'Building... :)'
       ]}
       multiTextDelay={1000}
       typeSpeed={100}
