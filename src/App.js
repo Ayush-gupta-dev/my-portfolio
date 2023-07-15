@@ -1,6 +1,6 @@
 import 'tailwindcss/tailwind.css';
 import nightImage from './imgNight.jpg';
-import TypingAnimation from './TypingAnimation';
+import TypewriterComponent from './TypingAnimation';
 function App() {
   return (
     
@@ -14,7 +14,8 @@ function App() {
         }}
       >
         {/* Your content here */}
-          <TypingAnimation />
+        
+          <TypewriterComponent />
       </div>
     </div>
   );

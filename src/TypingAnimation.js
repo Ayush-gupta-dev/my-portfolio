@@ -1,26 +1,55 @@
 import React from 'react';
-import Typed from 'react-typed';
+import Typewriter from 'react-typewriter-effect';
 
-const TypingAnimation = () => {
+const TypewriterComponent = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
-      <Typed
-        strings={['Building...','coming soon!','I love you :)','busy in a hackathon;)']}
-        typeSpeed={90} // Adjust the typing speed (in milliseconds)
-        loop={true}
-        className="text-white text-center text-5xl"
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          height: '100%',
+      <div className="flex items-center justify-center h-screen">
+    <Typewriter
+      textStyle={{
+        color:'white',
+        fontWeight:500,
+        fontSize: '2.5em',
+        textAlign:'center',
+
         }}
-      />
+      startDelay={100}
+      cursorColor='white'
+      multiText={[
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+
+        'Building...',
+        'Coming Soon!',
+        'I Love You :)',
+        'Busy in Hackathon ;)',
+        'Building...:)'
+      ]}
+      multiTextDelay={1000}
+      typeSpeed={100}
+    />
     </div>
   );
 };
 
-export default TypingAnimation;
+export default TypewriterComponent;
+
 
 
 
