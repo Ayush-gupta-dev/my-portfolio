@@ -1,7 +1,7 @@
 import React from "react";
-import ProfilePic from "./assets/Profile_photo.jpeg";
-import TypewriterComponent from "./TypingAnimation";
-import SocialLink from "./socialLink";
+import ProfilePic from "../assets/images/Profile_photo.jpeg";
+import TypewriterComponent from "../components/About_Componets/TypingAnimation";
+import SocialLink from "../components/About_Componets/socialLink";
 
 const About = () => {
   return (

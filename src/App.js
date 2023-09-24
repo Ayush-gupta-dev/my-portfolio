@@ -1,7 +1,6 @@
 import 'tailwindcss/tailwind.css';
-import TypewriterComponent from './TypingAnimation';
-import Navbar  from './navbar';
-import About from './About';
+import Navbar  from './screens/navbar';
+import About from './screens/About';
 function App() {
   return (
     
