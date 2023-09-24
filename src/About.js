@@ -6,7 +6,7 @@ import SocialLink from "./socialLink";
 const About = () => {
   return (
     <>
-      <div className="h-auto bg-gray-900 place-content-center">
+      <div className="md:h-full h-auto bg-gray-900 place-content-center pt-24">
         <div className="flex flex-col md:flex-row  place-content-center p-4 flex-wrap ">
           <div className=" md:w-1/5 w-6/12 m-4 mt-10 mx-auto md:mx-0">
             <img
