@@ -22,7 +22,7 @@ const About = () => {
             </div>
           </div>
           <div className="md:w-2/4 w-full md:p-4 p-0 md:m-4 m-1">
-            <p className="text-5xl font-semibold text-white font-sora mb-3">
+            <p className="md:text-5xl text-2xl font-semibold text-white font-sora mb-3">
               {" "}
               About me{" "}
             </p>

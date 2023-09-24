@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'About', href: '#', current: true },
@@ -45,7 +45,7 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current ? ' underline decoration-[#8E9FF8]-600 text-[#8E9FF8]	hover:bg-gray-700' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-lg font-medium font-bold'
+                          'rounded-md px-3 py-2 text-lg font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
