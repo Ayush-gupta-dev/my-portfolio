@@ -9,8 +9,6 @@ const TypewriterComponent = () => {
     "FullStack & Devops",
     "System Design",
     "Kubernetes",
-    "Machine Learning",
-    "Data Science",
     "Reactjs & React Native",
     "Programming",
     "JS, Python, Go, C++",
