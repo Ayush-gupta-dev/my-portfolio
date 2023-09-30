@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaLinkedin,
   FaExternalLinkSquareAlt,
+  FaYoutube,
 } from "react-icons/fa";
 const SocialLink = () => {
   return (
@@ -33,6 +34,14 @@ const SocialLink = () => {
           rel="noopener noreferrer"
         >
           <FaTwitter size={30} />
+        </a>
+        <a
+          href="https://www.youtube.com/@Elite-Developers"
+          target="_blank"
+          className="hover:text-white md:hover:scale-125"
+          rel="noopener noreferrer"
+        >
+          <FaYoutube size={30} />
         </a>
         <a
           href="https://bio.link/ayushbio"
