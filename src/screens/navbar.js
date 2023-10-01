@@ -1,13 +1,14 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-scroll'
 
 const navigation = [
-    { name: 'About', href: '#', current: true },
+    { name: 'About', href: 'about', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Certificates', href: '#', current: false },
   { name: 'Gallery', href: '#', current: false },
-  { name: 'Contacts', href: '#', current: false },
+  { name: 'Contacts', href: 'contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -39,18 +40,23 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
+                    
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        smooth={true}
+                        duration={300}
+                        spy={true}
+                        offset={-100}
+                        to={item.href}
                         className={classNames(
                           item.current ? ' underline decoration-[#8E9FF8]-600 text-[#8E9FF8]	hover:bg-gray-700' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-lg font-medium'
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={item.current ? 'about' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
