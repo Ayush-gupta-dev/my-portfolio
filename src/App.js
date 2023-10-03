@@ -10,7 +10,7 @@ function App() {
       <section id="about">
       <About/>
       </section>
-      <section id="contact">
+      <section id="contact" className='bg-gray-900 '>
       <Contact/>
       </section>
     </div>
