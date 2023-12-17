@@ -36,7 +36,7 @@ const SocialLink = () => {
           <FaTwitter size={30} />
         </a>
         <a
-          href="https://www.youtube.com/@Elite-Developers"
+          href="https://www.youtube.com/@madmecodes"
           target="_blank"
           className="hover:text-white md:hover:scale-125"
           rel="noopener noreferrer"
