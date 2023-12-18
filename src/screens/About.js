@@ -1,5 +1,7 @@
 import React from "react";
-import ProfilePic from "../assets/images/Profile_photo.jpeg";
+//import ProfilePic from "../assets/images/Profile_photo.jpeg";
+import ProfilePic from "../assets/images/bitsProfile.jpeg";
+
 import TypewriterComponent from "../components/About_Componets/TypingAnimation";
 import SocialLink from "../components/About_Componets/socialLink";
 
