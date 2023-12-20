@@ -14,7 +14,6 @@ const TypewriterComponent = () => {
     "JS, Python, Go, C++",
     "DSA",
     "Hackathons",
-    "Technical Writing",
     "Computer Science",
   ];
   const mobileToRepeat = [
